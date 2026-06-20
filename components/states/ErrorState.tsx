@@ -1,0 +1,2 @@
+import { Button } from "@/components/ui/Button";
+export function ErrorState({ message, onRetry }: { message: string; onRetry: () => void }) { return <section className="rounded-2xl border border-red-400/20 bg-red-400/5 p-10 text-center"><p className="text-lg font-medium">The screening room is unavailable.</p><p className="mt-2 text-sm text-zinc-400">{message}</p><Button className="mt-6" onClick={onRetry}>Try again</Button></section>; }

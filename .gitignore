@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.next-tailwind-final/
+.next-tailwind-verify/
+.env.local
+tsconfig.tsbuildinfo
+.tmp-tailwind.css
